@@ -6,7 +6,7 @@
             <argument name="state" xsi:type="object">Magento\MagentoCloud\Config\State</argument>
             <argument name="flagManager" xsi:type="object">Magento\MagentoCloud\Filesystem\Flag\Manager</argument>
             <argument name="installSteps" xsi:type="array">
-                <item name="dummp" xsi:type="object" skip="true" />
+                <item name="setup" xsi:type="object" skip="true" />
             </argument>
             <argument name="updateSteps" xsi:type="array">
                 <item name="setup" xsi:type="object" skip="true" />
