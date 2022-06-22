@@ -2,7 +2,7 @@
     "name": "phoenix-media/magento2-ece-tools",
     "description": "Enhancement of Magento ece-tools",
     "type": "magento2-component",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "license": [
         "OSL-3.0"
     ],

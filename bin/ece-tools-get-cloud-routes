@@ -6,12 +6,8 @@ $config = [
         [
             'http://'.$_ENV['PROJECT_DOMAIN'].'/' => [
                 'type'         => 'upstream',
-                'original_url' => '',
-            ],
-            'https://'.$_ENV['PROJECT_DOMAIN'].'/' => [
-                'type'         => 'upstream',
-                'original_url' => '',
-            ],
+                'original_url' => 'http://{default}/'
+            ]
         ]
     )),
 ];
