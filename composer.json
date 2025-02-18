@@ -2,12 +2,12 @@
     "name": "phoenix-media/magento2-ece-tools",
     "description": "Enhancement of Magento ece-tools",
     "type": "magento2-component",
-    "version": "1.0.12",
+    "version": "1.1.0",
     "license": [
         "OSL-3.0"
     ],
     "require": {
-        "magento/ece-tools": "~2002.1.10"
+        "magento/ece-tools": "~2002.2.0"
     },
     "bin": [
         "bin/ece-tools-get-cloud-routes"
