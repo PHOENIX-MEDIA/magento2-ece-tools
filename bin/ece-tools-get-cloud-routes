@@ -4,7 +4,7 @@
 $config = [
     'MAGENTO_CLOUD_ROUTES' => base64_encode(json_encode(
         [
-            'http://'.$_ENV['PROJECT_DOMAIN'].'/' => [
+            'http://'.getenv('PROJECT_DOMAIN').'/' => [
                 'type'         => 'upstream',
                 'original_url' => 'http://{default}/'
             ]
